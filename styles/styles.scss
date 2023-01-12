@@ -19,6 +19,7 @@
     box-sizing: border-box;
     padding: 0;
     // margin: ;
+    overflow: hidden;
    
     
 }
@@ -70,18 +71,18 @@ body{
                     }
                   
                 }
-                .essential-a {
-                    text-decoration: none;
-                    color: white;
-                }
+                
 
                 .essential-logo-text {
                     font-family: nunito-bold;
                     font-size: 120%;
                     font-weight: 800;
-                    color: white;
+                    color: white !important;
 
-                    
+                    .essential-a {
+                        // text-decoration: none;
+                        color: white;
+                    }
                 }
                 
             }

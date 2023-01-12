@@ -13,6 +13,7 @@
 * {
   box-sizing: border-box;
   padding: 0;
+  overflow: hidden;
 }
 
 html {
@@ -51,14 +52,13 @@ body header nav .logo-name .logo .logo-img {
   width: 8vh;
   height: 8vh;
 }
-body header nav .logo-name .essential-a {
-  text-decoration: none;
-  color: white;
-}
 body header nav .logo-name .essential-logo-text {
   font-family: nunito-bold;
   font-size: 120%;
   font-weight: 800;
+  color: white !important;
+}
+body header nav .logo-name .essential-logo-text .essential-a {
   color: white;
 }
 body header nav .links-div {
