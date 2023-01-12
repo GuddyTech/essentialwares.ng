@@ -13,7 +13,6 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  overflow: hidden;
 }
 
 html {
@@ -29,6 +28,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
+  background-size: 100;
   margin: 0px;
 }
 body header nav {
@@ -144,7 +144,50 @@ body header nav .links-div .ham .ham3 {
   }
 }
 body main {
-  margin: 5px;
+  border: 1px solid black;
   position: absolute;
   right: 50px;
+  bottom: 100px;
+  margin-bottom: -50px;
+}
+body main h1 {
+  font-family: nunito-bold;
+  font-weight: 1000;
+  font-size: 1.9em;
+  text-align: center;
+}
+body main .kindly {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: nunito-semibold;
+  line-height: 2px;
+}
+body main .freq {
+  margin-top: 50px;
+  font-family: nunito-bold;
+  margin-left: 67px;
+}
+body main .for-input {
+  text-align: center;
+}
+body main .for-input .search-input {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: 35vw;
+  height: 8vh;
+  font-size: 130%;
+  padding: 10px;
+  color: black;
+  font-family: nunito-regular;
+}
+body main .for-input .search-button {
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 10vw;
+  height: 8vh;
+  font-size: 130%;
+  color: white;
+  padding: 10px;
+  font-family: nunito-regular;
+  background-color: black;
 }/*# sourceMappingURL=styles.css.map */
