@@ -228,7 +228,7 @@ body{
         .freq {
             margin-top: 50px;
             font-family: nunito-bold;
-            margin-left: 67px;
+            margin-left: 71px;
 
         }
 
@@ -244,6 +244,10 @@ body{
                 padding: 10px;
                 color: black;
                 font-family: nunito-regular;
+                
+                &:focus {
+                    outline: 3px solid white;
+                }
             }
 
             .search-button {
@@ -256,6 +260,10 @@ body{
                 padding: 10px;
                 font-family: nunito-regular;
                 background-color: black;
+
+                &:active {
+                    background-color: rgb(20, 19, 19);
+                }
 
             }
 

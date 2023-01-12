@@ -165,7 +165,7 @@ body main .kindly {
 body main .freq {
   margin-top: 50px;
   font-family: nunito-bold;
-  margin-left: 67px;
+  margin-left: 71px;
 }
 body main .for-input {
   text-align: center;
@@ -180,6 +180,9 @@ body main .for-input .search-input {
   color: black;
   font-family: nunito-regular;
 }
+body main .for-input .search-input:focus {
+  outline: 3px solid white;
+}
 body main .for-input .search-button {
   border: 1px solid white;
   border-radius: 5px;
@@ -190,4 +193,7 @@ body main .for-input .search-button {
   padding: 10px;
   font-family: nunito-regular;
   background-color: black;
+}
+body main .for-input .search-button:active {
+  background-color: rgb(20, 19, 19);
 }/*# sourceMappingURL=styles.css.map */
