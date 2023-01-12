@@ -160,10 +160,10 @@ body main .kindly {
   text-align: center;
   font-size: 1.5em;
   font-family: nunito-semibold;
-  line-height: 2px;
+  line-height: 20px;
 }
 body main .freq {
-  margin-top: 50px;
+  margin-top: 10px;
   font-family: nunito-bold;
   margin-left: 71px;
 }
@@ -214,8 +214,16 @@ body main .for-input .search-button:active {
 }
 @media screen and (max-width: 950px) {
   body main {
-    color: red;
     display: block;
+  }
+  body .kindly {
+    flex-wrap: wrap;
+  }
+  body .freq {
+    padding: 1px 1px 1px 30px;
+    width: 50%;
+    color: white;
+    flex-wrap: wrap;
   }
 }
 body .footer .ruth {
@@ -233,6 +241,20 @@ body .footer .ruth .ruth-a {
 body .footer .ruth .ruth-a:hover {
   color: rgb(225, 217, 217);
 }
+@media screen and (max-width: 950px) {
+  body .footer .ruth {
+    text-align: center;
+    position: absolute;
+    right: 300px;
+    bottom: 70px;
+    margin-bottom: -50px;
+    font-size: 70%;
+    box-shadow: 1px 1px 10px 5px black;
+    background-color: rgb(16, 12, 12);
+    border: none;
+    color: white;
+  }
+}
 body .footer .guddy {
   text-align: center;
   position: absolute;
@@ -247,4 +269,18 @@ body .footer .guddy .guddy-a {
 }
 body .footer .guddy .guddy-a:hover {
   color: rgb(225, 217, 217);
+}
+@media screen and (max-width: 950px) {
+  body .footer .guddy {
+    text-align: center;
+    position: absolute;
+    right: 124px;
+    bottom: 70px;
+    margin-bottom: -50px;
+    font-size: 70%;
+    box-shadow: 1px 1px 10px 5px black;
+    background-color: rgb(16, 12, 12);
+    border: none;
+    color: white;
+  }
 }/*# sourceMappingURL=styles.css.map */

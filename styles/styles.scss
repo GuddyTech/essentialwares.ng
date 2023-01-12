@@ -221,12 +221,12 @@ body{
             text-align: center;
             font-size: 1.5em;
             font-family: nunito-semibold;
-            line-height: 2px;
+            line-height: 20px;
             
         }
 
         .freq {
-            margin-top: 50px;
+            margin-top: 10px;
             font-family: nunito-bold;
             margin-left: 71px;
 
@@ -297,8 +297,26 @@ body{
     }
     @media screen and (max-width: 950px) {
         main {
-            color: red;
+            // color: red;
             display: block;
+            // flex-wrap: wrap;
+        }
+
+        .kindly {
+            flex-wrap: wrap;
+            // font-size: 1%;
+            // border: 1px solid red;
+            
+        }
+
+        .freq {
+            
+            padding: 1px 1px 1px 30px;
+            width: 50%;
+            color: white;
+            // background-color: blue;
+            flex-wrap: wrap;
+            
         }
         
     }
@@ -324,6 +342,23 @@ body{
                 }
             }
         }
+        @media screen and (max-width: 950px) {
+            .ruth {
+                text-align: center;
+                position: absolute;
+                right: 300px;
+                bottom: 70px;
+                margin-bottom: -50px;
+                font-size: 70%;
+                box-shadow: 1px 1px 10px 5px black;
+                background-color: rgb(16, 12, 12);
+                border: none;
+                color: white;
+                
+                // display: none;
+            }
+            
+        }
 
         .guddy {
             text-align: center;
@@ -343,6 +378,24 @@ body{
                 }
             }
         }
+        @media screen and (max-width: 950px) {
+            .guddy {
+                text-align: center;
+                position: absolute;
+                right: 124px;
+                bottom: 70px;
+                margin-bottom: -50px;
+                font-size: 70%;
+                box-shadow: 1px 1px 10px 5px black;
+                background-color: rgb(16, 12, 12);
+                border: none;
+                color: white;
+                
+                // display: none;
+            }
+            
+        }
+        
 
     }
 }
