@@ -200,7 +200,7 @@ body{
     }
 
     main {
-        border: 1px solid black;
+        // border: 1px solid black;
         // margin: 20px 0px 5px 20px;
         
         // text-align: center;
@@ -299,6 +299,8 @@ body{
         main {
             // color: red;
             display: block;
+            background-color: rgba(46, 65, 46, 0.15);
+            margin-right: -10%;
             // flex-wrap: wrap;
         }
 
@@ -311,9 +313,9 @@ body{
 
         .freq {
             
-            padding: 1px 1px 1px 30px;
+            padding: 1px 1px 1px 55px;
             width: 50%;
-            color: white;
+            color: black;
             // background-color: blue;
             flex-wrap: wrap;
             
@@ -346,7 +348,7 @@ body{
             .ruth {
                 text-align: center;
                 position: absolute;
-                right: 300px;
+                right: 290px;
                 bottom: 70px;
                 margin-bottom: -50px;
                 font-size: 70%;
@@ -382,7 +384,7 @@ body{
             .guddy {
                 text-align: center;
                 position: absolute;
-                right: 124px;
+                right: 90px;
                 bottom: 70px;
                 margin-bottom: -50px;
                 font-size: 70%;
