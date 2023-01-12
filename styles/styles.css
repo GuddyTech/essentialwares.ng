@@ -92,29 +92,30 @@ body header nav .links-div ul .home {
     display: none;
   }
 }
+body header nav .links-div .ham {
+  gap: 20px;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: -15px;
+}
+body header nav .links-div .ham .ham1 {
+  height: 3px;
+  width: 20px;
+  background-color: white;
+}
+body header nav .links-div .ham .ham2 {
+  height: 3px;
+  width: 20px;
+  background-color: white;
+  margin-top: 2px;
+}
+body header nav .links-div .ham .ham3 {
+  height: 3px;
+  width: 20px;
+  background-color: white;
+  margin-top: 2px;
+}
 body main {
   margin: 5px;
-}
-body main .ham {
-  background-color: yellow;
-  width: 200px;
-  height: 100px;
-  border: 1px solid black;
-}
-body main .ham .ham1 {
-  height: 200px;
-  width: 500px;
-  border: 20px solid black;
-  background-color: black;
-  z-index: 1;
-}
-body main .ham .ham2 {
-  height: 2px;
-  width: 5px;
-  border: 1px solid black;
-}
-body main .ham .ham3 {
-  height: 2px;
-  width: 5px;
-  border: 1px solid black;
 }/*# sourceMappingURL=styles.css.map */
