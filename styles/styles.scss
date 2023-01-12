@@ -99,7 +99,7 @@ body{
                     
                     li{
                         color: black;
-                        border: 1px solid black;
+                        border: 1px solid white;
                         background-color: white;
                         width:fit-content;
                         height: 5vh;
@@ -113,14 +113,28 @@ body{
                         font-family: nunito-bold;
                         font-size: 100%;
                         display: block;
+                        transition: all .4s ease-in-out ;
+
+                        &:hover {
+                            color: white;
+                            background-color: black;
+                            transition: all .4s ease-in-out ;
+                        }
                         
                     }
 
                     .home {
                         color: white;
                         background-color: black;
-                        border: 1px solid white;                       
-                        
+                        border: 1px solid white;
+                        transition: all .4s ease-in-out ;
+                                              
+                        &:hover {
+                            color: white;
+                            background-color: transparent   ;
+                            transition: all .4s ease-in-out ;
+                            border: 1px solid black;
+                        }
                     }
 
                     @media screen and (max-width: 950px) {
