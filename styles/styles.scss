@@ -206,7 +206,7 @@ body{
         // text-align: center;
         position: absolute;
         right: 50px;
-        bottom: 100px;
+        bottom: 110px;
         margin-bottom: -50px;
 
         h1 {
@@ -267,6 +267,45 @@ body{
 
             }
 
+            
+
         }
+
+
+    }
+
+    .footer {
+        
+        
+        .ruth {
+            text-align: center;
+            position: absolute;
+            right: 555px;
+            bottom: 70px;
+            margin-bottom: -50px;
+            font-family: nunito-regular;
+            
+
+            .ruth-a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+
+        .guddy {
+            text-align: center;
+            position: absolute;
+            right: 124px;
+            bottom: 70px;
+            margin-bottom: -50px;
+            font-family: nunito-regular;
+            
+
+            .guddy-a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+
     }
 }
