@@ -19,6 +19,10 @@ html {
   margin: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   background: url(./../images/Essential-bg.svg);
   background-size: cover;
@@ -46,6 +50,10 @@ body header nav .logo-name {
 body header nav .logo-name .logo .logo-img {
   width: 8vh;
   height: 8vh;
+}
+body header nav .logo-name .essential-a {
+  text-decoration: none;
+  color: white;
 }
 body header nav .logo-name .essential-logo-text {
   font-family: nunito-bold;
@@ -88,7 +96,6 @@ body header nav .links-div ul .home {
 }
 @media screen and (max-width: 950px) {
   body header nav .links-div ul li {
-    color: red;
     display: none;
   }
 }
@@ -116,6 +123,12 @@ body header nav .links-div .ham .ham3 {
   width: 20px;
   background-color: white;
   margin-top: 2px;
+}
+@media screen and (max-width: 950px) {
+  body header nav .links-div .ham {
+    color: red;
+    display: block;
+  }
 }
 body main {
   margin: 5px;

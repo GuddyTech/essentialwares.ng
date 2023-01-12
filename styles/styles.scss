@@ -27,6 +27,12 @@ html {
     margin: 0px;
 }
 
+a {
+    text-decoration: none;
+}
+
+
+
 body{
     background: url(./../images/Essential-bg.svg);
     background-size: cover;
@@ -62,6 +68,11 @@ body{
                         height: 8vh;
 
                     }
+                  
+                }
+                .essential-a {
+                    text-decoration: none;
+                    color: white;
                 }
 
                 .essential-logo-text {
@@ -69,7 +80,10 @@ body{
                     font-size: 120%;
                     font-weight: 800;
                     color: white;
+
+                    
                 }
+                
             }
 
             .links-div {
@@ -110,7 +124,6 @@ body{
 
                     @media screen and (max-width: 950px) {
                         li {
-                            color: red;
                             display: none;
                         }
                         
@@ -153,6 +166,13 @@ body{
                         
                         
                     }
+                }
+                @media screen and (max-width: 950px) {
+                    .ham {
+                        color: red;
+                        display: block;
+                    }
+                    
                 }
                 
             }
