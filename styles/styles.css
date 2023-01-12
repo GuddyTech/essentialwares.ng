@@ -1,7 +1,22 @@
+@font-face {
+  font-family: nunito-regular;
+  src: url(../fonts/NunitoSans-Regular.ttf);
+}
+@font-face {
+  font-family: nunito-semibold;
+  src: url(../fonts/NunitoSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: nunito-bold;
+  src: url(../fonts/NunitoSans-Bold.ttf);
+}
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
+}
+
+html {
+  margin: 0px;
 }
 
 body {
@@ -14,4 +29,38 @@ body {
 body header nav {
   border: 1px solid black;
   background-color: gray;
+  margin: 0px;
+}
+body header nav .logo-name .logo .logo-img {
+  width: 8vh;
+  height: 8vh;
+}
+body header nav .links-div ul {
+  display: flex;
+  gap: 5px;
+}
+body header nav .links-div ul li {
+  color: black;
+  border: 1px solid black;
+  background-color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 5vh;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-weight: 800;
+  border-radius: 5px;
+  font-family: nunito-bold;
+}
+body header nav .links-div ul .home {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+body main {
+  margin: 5px;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,12 +1,30 @@
+@font-face {
+    font-family: nunito-regular;
+    src: url(../fonts/NunitoSans-Regular.ttf);
+}
 
+@font-face {
+    font-family: nunito-semibold;
+    src: url(../fonts/NunitoSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: nunito-bold;
+    src: url(../fonts/NunitoSans-Bold.ttf);
+}
 
 
 
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    // margin: ;
+   
     
+}
+
+html {
+    margin: 0px;
 }
 
 body{
@@ -17,10 +35,64 @@ body{
     margin: 0px;
     
     header{
+       
 
         nav {
             border: 1px solid black;
             background-color: gray;
+            margin: 0px ;
+
+            .logo-name {
+
+                .logo {
+
+                    .logo-img {
+                        width: 8vh;
+                        height: 8vh;
+
+                    }
+                }
+
+                .essential-logo-text {
+
+                }
+            }
+
+            .links-div {
+
+                ul {
+                display: flex;
+                gap: 5px;
+
+                    
+                    li{
+                        color: black;
+                        border: 1px solid black;
+                        background-color: white;
+                        width:fit-content;
+                        height: 5vh;
+                        list-style: none;
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        padding: 10px;
+                        font-weight: 800;
+                        border-radius: 5px;
+                        font-family: nunito-bold;
+                    }
+
+                    .home {
+                        color: white;
+                        background-color: black;
+                        border: 1px solid white;
+                        
+                    }
+                }
+            }
         }
+    }
+
+    main {
+        margin: 5px;
     }
 }
