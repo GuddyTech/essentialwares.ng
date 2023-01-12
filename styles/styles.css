@@ -62,6 +62,18 @@ body header nav .links-div ul {
   gap: 2vw;
   flex-shrink: 100%;
 }
+body header nav .links-div ul .ham .ham1 {
+  height: 2px;
+  width: 5px;
+}
+body header nav .links-div ul .ham .ham2 {
+  height: 2px;
+  width: 5px;
+}
+body header nav .links-div ul .ham .ham3 {
+  height: 2px;
+  width: 5px;
+}
 body header nav .links-div ul li {
   color: black;
   border: 1px solid black;
