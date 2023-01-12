@@ -145,4 +145,6 @@ body header nav .links-div .ham .ham3 {
 }
 body main {
   margin: 5px;
+  position: absolute;
+  right: 50px;
 }/*# sourceMappingURL=styles.css.map */
