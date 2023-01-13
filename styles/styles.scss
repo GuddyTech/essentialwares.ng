@@ -216,8 +216,21 @@ body{
             width: 90px;
             height: 185px;
             position: absolute;
-            bottom: 298px;
-            left: 410px;
+            bottom: 314px;
+            left: 716px;
+            overflow: hidden;
+            display:none;
+            // text-align: center;
+
+            //for mobile
+            // font-family: nunito-semibold;
+            // background-color: rgb(56, 52, 52);
+            // font-size: 80%;
+            // width: 90px;
+            // height: 185px;
+            // position: absolute;
+            // bottom: 298px;
+            // left: 410px;
             // text-align: center;
             
               
@@ -274,6 +287,22 @@ body{
                 }
             }
                     
+        }
+        @media screen and (max-width: 950px) {
+            .ham-bar{
+                font-family: nunito-semibold;
+                background-color: rgb(56, 52, 52);
+                font-size: 80%;
+                width: 90px;
+                height: 185px;
+                position: absolute;
+                bottom: 298px;
+                left: 410px;
+                text-align: center;
+                display: none;
+
+            }
+            
         }
 
         h1 {
