@@ -149,6 +149,58 @@ body main {
   bottom: 110px;
   margin-bottom: -50px;
 }
+body main .ham-bar {
+  font-family: nunito-semibold;
+  background-color: rgb(56, 52, 52);
+  font-size: 80%;
+  width: 90px;
+  height: 185px;
+  position: absolute;
+  bottom: 298px;
+  left: 410px;
+}
+body main .ham-bar .ham-home {
+  color: white;
+  margin-left: 5px;
+}
+body main .ham-bar .ham-home:hover {
+  color: gray;
+}
+body main .ham-bar .ham-about {
+  color: white;
+  margin-left: 5px;
+}
+body main .ham-bar .ham-about:hover {
+  color: gray;
+}
+body main .ham-bar .ham-deals {
+  color: white;
+  margin-left: 5px;
+}
+body main .ham-bar .ham-deals:hover {
+  color: gray;
+}
+body main .ham-bar .ham-contact {
+  color: white;
+  margin-left: 5px;
+}
+body main .ham-bar .ham-contact:hover {
+  color: gray;
+}
+body main .ham-bar .ham-login {
+  color: white;
+  margin-left: 5px;
+}
+body main .ham-bar .ham-login:hover {
+  color: gray;
+}
+body main .ham-bar .ham-sign {
+  color: white;
+  margin-left: 5px;
+}
+body main .ham-bar .ham-sign:hover {
+  color: gray;
+}
 body main h1 {
   font-family: nunito-bold;
   font-weight: 1000;

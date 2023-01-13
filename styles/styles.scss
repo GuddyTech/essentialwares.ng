@@ -209,6 +209,73 @@ body{
         bottom: 110px;
         margin-bottom: -50px;
 
+        .ham-bar {
+            font-family: nunito-semibold;
+            background-color: rgb(56, 52, 52);
+            font-size: 80%;
+            width: 90px;
+            height: 185px;
+            position: absolute;
+            bottom: 298px;
+            left: 410px;
+            // text-align: center;
+            
+              
+
+
+            .ham-home {
+                color: white;
+               
+                margin-left: 5px;
+
+                &:hover {
+                    color: gray;
+                }
+            }
+            .ham-about {
+                color: white;
+                margin-left: 5px;
+
+                &:hover {
+                    color: gray;
+                }
+               
+            }
+            .ham-deals {
+                color: white;
+                margin-left: 5px;
+
+                &:hover {
+                    color: gray;
+                }
+            }
+            .ham-contact {
+                color: white;
+                margin-left: 5px;
+
+                &:hover {
+                    color: gray;
+                }
+            }
+            .ham-login {
+                color: white;
+                margin-left: 5px;
+
+                &:hover {
+                    color: gray;
+                }
+            }
+            .ham-sign {
+                color: white;
+                margin-left: 5px;
+
+                &:hover {
+                    color: gray;
+                }
+            }
+                    
+        }
+
         h1 {
             font-family: nunito-bold;
             font-weight: 1000;
