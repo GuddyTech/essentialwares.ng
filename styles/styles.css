@@ -118,6 +118,7 @@ body header nav .links-div .ham {
   text-align: center;
   margin-bottom: 20px;
   margin-top: -15px;
+  cursor: pointer;
   display: none;
 }
 body header nav .links-div .ham .ham1 {
@@ -141,6 +142,39 @@ body header nav .links-div .ham .ham3 {
   body header nav .links-div .ham {
     color: red;
     display: block;
+  }
+}
+body header nav .links-div .ham-cancel {
+  gap: 20px;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: -15px;
+  cursor: pointer;
+  display: none;
+}
+body header nav .links-div .ham-cancel .ham1-cancel {
+  height: 3px;
+  width: 20px;
+  background-color: white;
+  transform-origin: 30%;
+  transform: rotate(45deg);
+  margin-top: 1px;
+  margin-left: 2px;
+}
+body header nav .links-div .ham-cancel .ham3-cancel {
+  height: 3px;
+  width: 20px;
+  background-color: white;
+  margin-top: 2px;
+  transform-origin: 50%;
+  transform: rotate(140deg);
+  margin-top: 1px;
+}
+@media screen and (max-width: 950px) {
+  body header nav .links-div .ham-cancel {
+    color: red;
+    display: none;
   }
 }
 body main {
