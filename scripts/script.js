@@ -22,4 +22,4 @@ document.addEventListener("DOMContentLoaded", function () {
         e.preventDefault();
         subcriptionBox2.classList.toggle('hide2')
 
-    })
+    });
