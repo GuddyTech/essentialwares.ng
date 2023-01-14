@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         e.preventDefault();
         subcriptionBox.classList.toggle('hide')
 
-    })
+    });
 
     button2.addEventListener('click', function(e){
         e.preventDefault();
