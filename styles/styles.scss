@@ -267,12 +267,12 @@ body{
             background-color: rgb(56, 52, 52);
             font-size: 80%;
             width: 90px;
-            height: 185px;
+            height: 200px;
             position: absolute;
             bottom: 314px;
             left: 716px;
             overflow: hidden;
-            display:block;
+            display: block;
             // text-align: center;
 
             //for mobile
@@ -293,6 +293,8 @@ body{
                 color: white;
                
                 margin-left: 5px;
+               
+                
 
                 &:hover {
                     color: gray;
@@ -347,7 +349,8 @@ body{
                 background-color: rgb(56, 52, 52);
                 font-size: 80%;
                 width: 90px;
-                height: 185px;
+                height: 200px;
+                padding-top: 20px;
                 position: absolute;
                 bottom: 298px;
                 left: 410px;
