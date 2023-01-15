@@ -151,7 +151,7 @@ body header nav .links-div .ham-cancel {
   margin-bottom: 20px;
   margin-top: -15px;
   cursor: pointer;
-  display: none;
+  display: block;
 }
 body header nav .links-div .ham-cancel .ham1-cancel {
   height: 3px;
@@ -193,7 +193,7 @@ body main .ham-bar {
   bottom: 314px;
   left: 716px;
   overflow: hidden;
-  display: none;
+  display: block;
 }
 body main .ham-bar .ham-home {
   color: white;
