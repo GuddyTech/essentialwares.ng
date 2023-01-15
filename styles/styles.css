@@ -144,16 +144,22 @@ body header nav .links-div .ham .ham3 {
     display: block;
   }
 }
-body header nav .links-div .ham-cancel {
+body main {
+  position: absolute;
+  right: 50px;
+  bottom: 110px;
+  margin-bottom: -50px;
+}
+body main .ham-cancel {
   gap: 20px;
   display: block;
   text-align: center;
   margin-bottom: 20px;
-  margin-top: -15px;
+  margin-left: 60px;
   cursor: pointer;
   display: block;
 }
-body header nav .links-div .ham-cancel .ham1-cancel {
+body main .ham-cancel .ham1-cancel {
   height: 3px;
   width: 20px;
   background-color: white;
@@ -162,7 +168,7 @@ body header nav .links-div .ham-cancel .ham1-cancel {
   margin-top: 1px;
   margin-left: 2px;
 }
-body header nav .links-div .ham-cancel .ham3-cancel {
+body main .ham-cancel .ham3-cancel {
   height: 3px;
   width: 20px;
   background-color: white;
@@ -172,27 +178,22 @@ body header nav .links-div .ham-cancel .ham3-cancel {
   margin-top: 1px;
 }
 @media screen and (max-width: 950px) {
-  body header nav .links-div .ham-cancel {
+  body main .ham-cancel {
     color: red;
     display: none;
   }
-}
-body main {
-  position: absolute;
-  right: 50px;
-  bottom: 110px;
-  margin-bottom: -50px;
 }
 body main .ham-bar {
   font-family: nunito-semibold;
   background-color: rgb(56, 52, 52);
   font-size: 80%;
   width: 90px;
-  height: 210px;
+  height: 225px;
   position: absolute;
   bottom: 314px;
   left: 716px;
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   overflow: hidden;
   display: block;
 }
