@@ -179,7 +179,7 @@ body main .ham-cancel .ham3-cancel {
 }
 @media screen and (max-width: 950px) {
   body main .ham-cancel {
-    display: none;
+    display: block;
   }
 }
 body main .ham-bar {
@@ -189,7 +189,7 @@ body main .ham-bar {
   width: 90px;
   height: 225px;
   position: absolute;
-  bottom: 314px;
+  bottom: 274px;
   left: 716px;
   padding-top: 10px;
   padding-bottom: 10px;

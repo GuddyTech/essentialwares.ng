@@ -274,7 +274,7 @@ body{
         @media screen and (max-width: 950px) {
             .ham-cancel {
                 // color: red;
-                display: none;
+                display: block;
             }
             
         }
@@ -286,7 +286,7 @@ body{
             width: 90px;
             height: 225px;
             position: absolute;
-            bottom: 314px;
+            bottom: 274px;
             left: 716px;
             padding-top: 10px;
             padding-bottom: 10px;
