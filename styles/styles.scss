@@ -222,20 +222,25 @@ body{
             margin-left: 60px;
             cursor: pointer;
             display: block;
-            &:active {
-                background-color: red;
-            }
+            // &:active {
+            //     background-color: red;
+            // }
             
 
             .ham1-cancel {
                 height: 3px;
                 width: 20px;
                 // border: 1px solid black;
-                background-color: rgb(179, 12, 12);
+                background-color: white;
                 transform-origin: 30%;  
                 transform: rotate(45deg);
                 margin-top: 1px;
                 margin-left: 2px;
+
+                &:active {
+                    background-color: red;
+                    
+                }
                 
                
                 
