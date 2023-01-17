@@ -168,7 +168,7 @@ body main .ham-cancel .ham1-cancel {
   margin-top: 1px;
   margin-left: 2px;
 }
-body main .ham-cancel .ham1-cancel:active {
+body main .ham-cancel .ham1-cancel:hover {
   background-color: red;
 }
 body main .ham-cancel .ham3-cancel {
@@ -179,6 +179,9 @@ body main .ham-cancel .ham3-cancel {
   transform-origin: 50%;
   transform: rotate(140deg);
   margin-top: 1px;
+}
+body main .ham-cancel .ham3-cancel:hover {
+  background-color: red;
 }
 @media screen and (max-width: 950px) {
   body main .ham-cancel {

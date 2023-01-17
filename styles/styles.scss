@@ -237,7 +237,7 @@ body{
                 margin-top: 1px;
                 margin-left: 2px;
 
-                &:active {
+                &:hover {
                     background-color: red;
                     
                 }
@@ -262,6 +262,11 @@ body{
                 transform-origin: 50%;
                 transform: rotate(140deg);
                 margin-top: 1px;
+
+                &:hover {
+                    background-color: red;
+                    
+                }
                 
                 
             }
