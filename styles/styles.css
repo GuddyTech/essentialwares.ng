@@ -238,7 +238,7 @@ body main .ham-bar .ham-sign {
 body main .ham-bar .ham-sign:hover {
   color: gray;
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 650px) {
   body main .ham-bar {
     font-family: nunito-semibold;
     background-color: rgb(56, 52, 52);
@@ -249,7 +249,7 @@ body main .ham-bar .ham-sign:hover {
     bottom: 298px;
     left: 410px;
     text-align: center;
-    display: none;
+    display: block;
   }
 }
 body main h1 {
