@@ -87,7 +87,7 @@ body header nav .links-div ul li {
   border-radius: 2px;
   font-family: nunito-bold;
   font-size: 100%;
-  display: block;
+  display: none;
   transition: all 0.4s ease-in-out;
 }
 body header nav .links-div ul li:hover {
@@ -107,9 +107,9 @@ body header nav .links-div ul .home:hover {
   transition: all 0.4s ease-in-out;
   border: 1px solid black;
 }
-@media screen and (max-width: 950px) {
+@media screen and (min-width: 769px) and (max-width: 2560px) {
   body header nav .links-div ul li {
-    display: none;
+    display: block;
   }
 }
 body header nav .links-div .ham {
