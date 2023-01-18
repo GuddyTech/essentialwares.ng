@@ -386,9 +386,11 @@ body{
 
             .freq {
                 color: white;
-                border: 1px solid red;
+                // border: 1px solid red;
                 font-size: 70%;
                 text-align: left;
+                margin-right: 155px;
+                
             }
             
         }
@@ -413,6 +415,7 @@ body{
             margin-top: 10px;
             font-family: nunito-bold;
             margin-left: 71px;
+            
 
         }
 
@@ -494,6 +497,12 @@ body{
             // font-size: x-small;
             // font-size: 1%;
             // border: 1px solid red;
+            
+        }
+
+        .freq {
+            position: relative;
+            right: 24px;
             
         }
 
