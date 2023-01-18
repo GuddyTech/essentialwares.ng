@@ -251,6 +251,12 @@ body main .ham-bar .ham-sign:hover {
     text-align: left;
     display: block;
   }
+  body main h1 {
+    color: white;
+  }
+  body main .kindly {
+    color: white;
+  }
   body main .freq {
     color: white;
   }
