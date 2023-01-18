@@ -259,6 +259,9 @@ body main .ham-bar .ham-sign:hover {
   }
   body main .freq {
     color: white;
+    border: 1px solid red;
+    font-size: 70%;
+    text-align: left;
   }
 }
 body main h1 {
@@ -329,12 +332,6 @@ body main .for-input .search-button:active {
     margin-right: -10%;
   }
   body .kindly {
-    flex-wrap: wrap;
-  }
-  body .freq {
-    padding: 1px 1px 1px 55px;
-    width: 50%;
-    color: black;
     flex-wrap: wrap;
   }
 }

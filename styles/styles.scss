@@ -386,6 +386,9 @@ body{
 
             .freq {
                 color: white;
+                border: 1px solid red;
+                font-size: 70%;
+                text-align: left;
             }
             
         }
@@ -494,15 +497,15 @@ body{
             
         }
 
-        .freq {
+        // .freq {
             
-            padding: 1px 1px 1px 55px;
-            width: 50%;
-            color: black;
-            // background-color: blue;
-            flex-wrap: wrap;
+        //     padding: 1px 1px 1px 55px;
+        //     width: 50%;
+        //     color: black;
+        //     // background-color: blue;
+        //     flex-wrap: wrap;
             
-        }
+        // }
         
     }
 
