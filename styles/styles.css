@@ -395,4 +395,9 @@ body .footer .guddy .guddy-a:hover {
     border: none;
     color: white;
   }
+}
+@media screen and (max-width: 960px) {
+  body {
+    text-align: center;
+  }
 }/*# sourceMappingURL=styles.css.map */
