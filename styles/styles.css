@@ -194,7 +194,7 @@ body main .ham-bar {
   padding-top: 10px;
   padding-bottom: 10px;
   overflow: hidden;
-  display: none;
+  display: block;
 }
 body main .ham-bar .ham-home {
   color: white;
@@ -244,12 +244,15 @@ body main .ham-bar .ham-sign:hover {
     background-color: rgb(56, 52, 52);
     font-size: 80%;
     width: 90px;
-    height: 200px;
+    height: 224px;
     position: absolute;
-    bottom: 298px;
-    left: 410px;
-    text-align: center;
-    display: none;
+    bottom: 390px;
+    left: 270px;
+    text-align: left;
+    display: block;
+  }
+  body main .freq {
+    color: white;
   }
 }
 body main h1 {

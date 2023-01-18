@@ -291,7 +291,7 @@ body{
             padding-top: 10px;
             padding-bottom: 10px;
             overflow: hidden;
-            display: none;
+            display: block;
             // text-align: center;
 
             //for mobile
@@ -368,12 +368,16 @@ body{
                 background-color: rgb(56, 52, 52);
                 font-size: 80%;
                 width: 90px;
-                height: 200px;
+                height: 224px;
                 position: absolute;
-                bottom: 298px;
-                left: 410px;
-                text-align: center;
-                display: none;
+                bottom: 390px;
+                left: 270px;
+                text-align: left;
+                display: block;
+            }
+
+            .freq {
+                color: white;
             }
             
         }
