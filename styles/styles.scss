@@ -186,7 +186,7 @@ body{
                         
                     }
                 }
-                @media screen and (max-width: 950px) {
+                @media screen and (min-width: 769px) and (max-width: 2560px ) {
                     .ham {
                         color: red;
                         display: block; //change it to block later
