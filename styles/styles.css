@@ -52,6 +52,12 @@ body header nav .logo-name .logo .logo-img {
   width: 8vh;
   height: 8vh;
 }
+@media screen and (max-width: 960px) {
+  body header nav .logo-name .logo .logo-img {
+    width: 7vw;
+    height: 7vh;
+  }
+}
 body header nav .logo-name .essential-logo-text {
   font-family: nunito-bold;
   font-size: 120%;
