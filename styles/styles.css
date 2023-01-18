@@ -326,7 +326,7 @@ body main .for-input .search-button:active {
 @media screen and (max-width: 950px) {
   body main {
     display: block;
-    background-color: rgba(46, 65, 46, 0.15);
+    background-color: rgba(64, 65, 64, 0.25);
     margin-right: -10%;
   }
   body .kindly {
