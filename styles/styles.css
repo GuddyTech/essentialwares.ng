@@ -13,6 +13,7 @@
 * {
   box-sizing: border-box;
   padding: 0;
+  overflow-x: hidden;
 }
 
 html {
@@ -401,5 +402,10 @@ body .footer .guddy .guddy-a:hover {
     background-color: rgb(16, 12, 12);
     border: none;
     color: white;
+  }
+}
+@media screen and (max-width: 960px) {
+  body {
+    overflow-y: hidden;
   }
 }/*# sourceMappingURL=styles.css.map */
