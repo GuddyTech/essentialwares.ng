@@ -251,7 +251,7 @@ body main .ham-bar .ham-sign:hover {
     font-size: 80%;
     width: 90px;
     height: 224px;
-    position: relative;
+    position: absolute;
     bottom: 416px;
     left: 323px;
     text-align: left;
