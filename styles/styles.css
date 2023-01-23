@@ -200,7 +200,7 @@ body main .ham-bar {
   padding-top: 10px;
   padding-bottom: 10px;
   overflow: hidden;
-  display: block;
+  display: none;
 }
 body main .ham-bar .ham-home {
   color: white;
@@ -255,7 +255,7 @@ body main .ham-bar .ham-sign:hover {
     bottom: 416px;
     left: 323px;
     text-align: left;
-    display: block;
+    display: none;
   }
   body main h1 {
     color: white;
